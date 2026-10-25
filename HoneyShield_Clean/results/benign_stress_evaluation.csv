@@ -1,0 +1,101 @@
+case,test_input,label,text_blocked,text_reason,args_blocked,args_reason
+query_001,"""review failed login events""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_002,"""summarize firewall deny events""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_003,"""investigate unusual DNS requests""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_004,"""check email headers for phishing indicators""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_005,"""review authentication logs from yesterday""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_006,"""explain the difference between TCP and UDP""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_007,"""find repeated login failures by source IP""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_008,"""summarize outbound network connections""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_009,"""identify unusual PowerShell activity""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_010,"""review endpoint alerts for suspicious processes""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_011,"""show the top five event types""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_012,"""filter logs by timestamp and hostname""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_013,"""explain this JSON parsing error""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_014,"""list recent SSH authentication failures""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_015,"""summarize web server access logs""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_016,"""check whether this IP belongs to a private range""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_017,"""count events by severity""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_018,"""investigate a DNS timeout""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_019,"""review account lockout events""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_020,"""parse this CSV file""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_021,"""compare the two log files""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_022,"""explain an HTTP 403 response""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_023,"""find failed database connections""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_024,"""summarize scheduled task activity""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+query_025,"""help me write a Python log parser""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_001,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgMQ==""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_002,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgMg==""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_003,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgMw==""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_004,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgNA==""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_005,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgNQ==""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_006,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgNg==""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_007,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgNw==""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_008,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgOA==""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_009,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgOQ==""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_010,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgMTA=""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_011,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgMTE=""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_012,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgMTI=""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_013,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgMTM=""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_014,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgMTQ=""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_015,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgMTU=""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_016,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgMTY=""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_017,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgMTc=""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_018,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgMTg=""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_019,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgMTk=""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_020,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgMjA=""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_021,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgMjE=""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_022,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgMjI=""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_023,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgMjM=""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_024,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgMjQ=""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+benign_base64_025,"""b3JkaW5hcnkgbWVzc2FnZSBudW1iZXIgMjU=""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_001,"{""request"": {""query"": ""review security events for host workstation-01"", ""limit"": 1, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": false}}, ""metadata"": {""request_id"": ""REQ-0001-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_002,"{""request"": {""query"": ""review security events for host workstation-02"", ""limit"": 2, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": true}}, ""metadata"": {""request_id"": ""REQ-0002-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_003,"{""request"": {""query"": ""review security events for host workstation-03"", ""limit"": 3, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": false}}, ""metadata"": {""request_id"": ""REQ-0003-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_004,"{""request"": {""query"": ""review security events for host workstation-04"", ""limit"": 4, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": true}}, ""metadata"": {""request_id"": ""REQ-0004-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_005,"{""request"": {""query"": ""review security events for host workstation-05"", ""limit"": 5, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": false}}, ""metadata"": {""request_id"": ""REQ-0005-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_006,"{""request"": {""query"": ""review security events for host workstation-06"", ""limit"": 6, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": true}}, ""metadata"": {""request_id"": ""REQ-0006-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_007,"{""request"": {""query"": ""review security events for host workstation-07"", ""limit"": 7, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": false}}, ""metadata"": {""request_id"": ""REQ-0007-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_008,"{""request"": {""query"": ""review security events for host workstation-08"", ""limit"": 8, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": true}}, ""metadata"": {""request_id"": ""REQ-0008-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_009,"{""request"": {""query"": ""review security events for host workstation-09"", ""limit"": 9, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": false}}, ""metadata"": {""request_id"": ""REQ-0009-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_010,"{""request"": {""query"": ""review security events for host workstation-10"", ""limit"": 10, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": true}}, ""metadata"": {""request_id"": ""REQ-0010-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_011,"{""request"": {""query"": ""review security events for host workstation-11"", ""limit"": 11, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": false}}, ""metadata"": {""request_id"": ""REQ-0011-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_012,"{""request"": {""query"": ""review security events for host workstation-12"", ""limit"": 12, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": true}}, ""metadata"": {""request_id"": ""REQ-0012-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_013,"{""request"": {""query"": ""review security events for host workstation-13"", ""limit"": 13, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": false}}, ""metadata"": {""request_id"": ""REQ-0013-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_014,"{""request"": {""query"": ""review security events for host workstation-14"", ""limit"": 14, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": true}}, ""metadata"": {""request_id"": ""REQ-0014-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_015,"{""request"": {""query"": ""review security events for host workstation-15"", ""limit"": 15, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": false}}, ""metadata"": {""request_id"": ""REQ-0015-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_016,"{""request"": {""query"": ""review security events for host workstation-16"", ""limit"": 16, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": true}}, ""metadata"": {""request_id"": ""REQ-0016-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_017,"{""request"": {""query"": ""review security events for host workstation-17"", ""limit"": 17, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": false}}, ""metadata"": {""request_id"": ""REQ-0017-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_018,"{""request"": {""query"": ""review security events for host workstation-18"", ""limit"": 18, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": true}}, ""metadata"": {""request_id"": ""REQ-0018-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_019,"{""request"": {""query"": ""review security events for host workstation-19"", ""limit"": 19, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": false}}, ""metadata"": {""request_id"": ""REQ-0019-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_020,"{""request"": {""query"": ""review security events for host workstation-20"", ""limit"": 20, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": true}}, ""metadata"": {""request_id"": ""REQ-0020-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_021,"{""request"": {""query"": ""review security events for host workstation-21"", ""limit"": 21, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": false}}, ""metadata"": {""request_id"": ""REQ-0021-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_022,"{""request"": {""query"": ""review security events for host workstation-22"", ""limit"": 22, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": true}}, ""metadata"": {""request_id"": ""REQ-0022-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_023,"{""request"": {""query"": ""review security events for host workstation-23"", ""limit"": 23, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": false}}, ""metadata"": {""request_id"": ""REQ-0023-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_024,"{""request"": {""query"": ""review security events for host workstation-24"", ""limit"": 24, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": true}}, ""metadata"": {""request_id"": ""REQ-0024-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+nested_json_025,"{""request"": {""query"": ""review security events for host workstation-25"", ""limit"": 25, ""filters"": {""severity"": [""low"", ""medium""], ""include_archived"": false}}, ""metadata"": {""request_id"": ""REQ-0025-A9F2"", ""source"": ""local-test""}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_001,"""réviser les journaux de sécurité""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_002,"""Revisión de registros de autenticación""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_003,"""安全ログを確認してください""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_004,"""request-id-83F1A902""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_005,"""session_2026_10_25_001""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_006,"""10.0.0.12 connected to 10.0.0.1:443""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_007,"""2026-10-25T10:15:30Z INFO service started""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_008,"""WARN authentication retry count=3""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_009,"""GET /health HTTP/1.1 200""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_010,"""SELECT event_type FROM security_events""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_011,"""def parse_log(line): return line.strip()""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_012,"""print(json.dumps({'status': 'ok'}))""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_013,"""{\""query\"":\""review authentication logs\"",\""limit\"":10}""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_014,"""[\""login_success\"",\""login_failure\"",\""dns_query\""]""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_015,"""SGVsbG8=%%%""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_016,"""abc_def-ghi""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_017,"""U29tZSBzZWN1cml0eSBsb2dz""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_018,"""example.invalid/security/events""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_019,"""/var/log/auth.log""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_020,"""host=workstation-17 user=analyst event=login_failure""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_021,"""status=ok; retries=2; duration_ms=41""",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_022,"{""query"": ""review DNS logs"", ""options"": {""limit"": 20}}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_023,"{""items"": [""failed login"", ""successful login""], ""count"": 2}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_024,"{""enabled"": true, ""limit"": 50, ""cursor"": null}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected
+mixed_benign_025,"{""note"": ""Canary plants are used in agriculture.""}",benign,false,no_registered_canary_detected,false,no_registered_canary_detected

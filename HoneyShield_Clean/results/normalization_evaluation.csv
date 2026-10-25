@@ -1,0 +1,13 @@
+case,input_text,contains_canary,baseline_text_blocked,baseline_text_classification,normalized_text_blocked,normalized_text_classification,baseline_args_blocked,baseline_args_classification,normalized_args_blocked,normalized_args_classification
+exact,HS-CANARY-TRANSFORM-TEST-001,True,True,TP,True,TP,True,TP,True,TP
+surrounded,Leaked value: HS-CANARY-TRANSFORM-TEST-001,True,True,TP,True,TP,True,TP,True,TP
+space_after_prefix,HS- CANARY-TRANSFORM-TEST-001,True,False,FN,True,TP,False,FN,True,TP
+space_in_middle,HS-CANARY-TRANS FORM-TEST-001,True,False,FN,True,TP,False,FN,True,TP
+multiple_spaces,HS- CANARY- TRANSFORM-TEST-001,True,False,FN,True,TP,False,FN,True,TP
+base64_not_decoded,SFMtQ0FOQVJZLVRSQU5TRk9STS1URVNULTAwMQ==,True,False,FN,False,FN,False,FN,False,FN
+ordinary_security_query,Please search for recent security advisories.,False,False,TN,False,TN,False,TN,False,TN
+ordinary_sentence,The monitoring dashboard shows normal activity.,False,False,TN,False,TN,False,TN,False,TN
+canary_prefix_only,The identifier begins with HS-CANARY but is incomplete.,False,False,TN,False,TN,False,TN,False,TN
+canary_suffix_only,The reference ends with TRANSFORM-TEST-001.,False,False,TN,False,TN,False,TN,False,TN
+fragment_words,HS CANARY TRANSFORM TEST 001,False,False,TN,False,TN,False,TN,False,TN
+unrelated_numbers,Review event 001 and system test results.,False,False,TN,False,TN,False,TN,False,TN

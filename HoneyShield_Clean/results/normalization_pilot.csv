@@ -1,0 +1,7 @@
+case,input_text,baseline_text_blocked,candidate_text_blocked,baseline_args_blocked,candidate_args_blocked
+unchanged,HS-CANARY-TRANSFORM-TEST-001,True,True,True,True
+surrounding_text,Please review this value: HS-CANARY-TRANSFORM-TEST-001,True,True,True,True
+split_with_space,HS- CANARY-TRANSFORM-TEST-001,False,True,False,True
+split_into_fragments,HS-CANARY-TRAN SFORM-TEST-001,False,True,False,True
+base64_encoded,SFMtQ0FOQVJZLVRSQU5TRk9STS1URVNULTAwMQ==,False,False,False,False
+benign_text,Please search for recent security advisories.,False,False,False,False

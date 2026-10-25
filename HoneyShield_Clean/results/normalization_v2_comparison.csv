@@ -1,0 +1,16 @@
+case,test_input,positive_by_test_design,baseline_text_blocked,baseline_text_class,normalized_v1_text_blocked,normalized_v1_text_class,baseline_args_blocked,baseline_args_class,normalized_v1_args_blocked,normalized_v1_args_class,normalized_v2_args_blocked,normalized_v2_args_class
+exact,'HS-CANARY-7F3A9B2C',True,True,TP,True,TP,True,TP,True,TP,True,TP
+surrounding_text,'Alert: HS-CANARY-7F3A9B2C found',True,True,TP,True,TP,True,TP,True,TP,True,TP
+one_inserted_space,'HS- CANARY-7F3A9B2C',True,False,FN,True,TP,False,FN,True,TP,True,TP
+middle_space,'HS-CAN ARY-7F3A9B2C',True,False,FN,True,TP,False,FN,True,TP,True,TP
+multiple_spaces,'HS-   CANARY-7F3A9B2C',True,False,FN,True,TP,False,FN,True,TP,True,TP
+tab_inserted,'HS-\tCANARY-7F3A9B2C',True,False,FN,True,TP,False,FN,False,FN,True,TP
+newline_inserted,'HS-\nCANARY-7F3A9B2C',True,False,FN,True,TP,False,FN,False,FN,True,TP
+punctuation_inserted,'HS-CAN-ARY-7F3A9B2C',True,False,FN,False,FN,False,FN,False,FN,False,FN
+separated_words,'HS CANARY 7F3A9B2C',True,False,FN,False,FN,False,FN,False,FN,False,FN
+base64_encoded,'SFMtQ0FOQVJZLTdGM0E5QjJD',True,False,FN,False,FN,False,FN,False,FN,False,FN
+benign_security_query,'review failed login events',False,False,TN,False,TN,False,TN,False,TN,False,TN
+benign_identifier,'event_id=4625',False,False,TN,False,TN,False,TN,False,TN,False,TN
+benign_canary_discussion,'Explain what a honey token is',False,False,TN,False,TN,False,TN,False,TN,False,TN
+benign_fragment,'HS CANARY is a placeholder phrase',False,False,TN,False,TN,False,TN,False,TN,False,TN
+benign_nested_argument,{'filters': {'query': 'review endpoint alerts'}},False,False,TN,False,TN,False,TN,False,TN,False,TN

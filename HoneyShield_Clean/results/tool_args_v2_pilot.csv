@@ -1,0 +1,10 @@
+case,query,positive_by_test_design,baseline_blocked,baseline_class,normalized_v1_blocked,normalized_v1_class,normalized_v2_blocked,normalized_v2_class
+exact,HS-CANARY-TRANSFORM-TEST-001,True,True,TP,True,TP,True,TP
+space_inserted,HS-CANARY-TRAN SFORM-TEST-001,True,False,FN,True,TP,True,TP
+tab_inserted,HS-CANARY-TRAN	SFORM-TEST-001,True,False,FN,False,FN,True,TP
+newline_inserted,"HS-CANARY-TRAN
+SFORM-TEST-001",True,False,FN,False,FN,True,TP
+punctuation_inserted,HS-CANARY-TRAN.SFORM-TEST-001,True,False,FN,False,FN,False,FN
+base64_encoded,SFMtQ0FOQVJZLVRSQU5TRk9STS1URVNULTAwMQ==,True,False,FN,False,FN,False,FN
+benign_query,Review failed sign-in events.,False,False,TN,False,TN,False,TN
+benign_fragments,HS CANARY TRANSFORM TEST 001,False,False,TN,False,TN,False,TN

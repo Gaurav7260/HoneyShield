@@ -1,0 +1,58 @@
+case,arguments,expected_benign,baseline_blocked,baseline_reason,normalized_v2_blocked,normalized_v2_reason
+simple_search,{'query': 'failed login events'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+windows_event,{'query': 'Windows Event ID 4625'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+linux_auth,{'query': 'review /var/log/auth.log'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+firewall,{'query': 'denied outbound connections'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+dns,{'query': 'investigate suspicious DNS requests'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+http,{'query': 'summarize HTTP 404 errors'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+https,{'query': 'review TLS handshake failures'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+splunk,{'query': 'index=main sourcetype=syslog'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+sentinel,{'query': 'SigninLogs | take 10'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+wazuh,{'query': 'review Wazuh alerts'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+brute_force,{'query': 'possible brute force attack'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+phishing,{'query': 'analyze suspicious email headers'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+malware,{'query': 'check endpoint malware alerts'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+mitre,{'query': 'map this behavior to MITRE ATT&CK'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+incident,{'query': 'summarize incident timeline'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+ip_address,{'query': 'investigate IP 192.0.2.15'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+domain,{'query': 'review example.test domain activity'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+port,{'query': 'check connections to port 443'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+timestamp,{'query': 'events between 09:00 and 10:00'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+quoted_text,"{'query': 'search for the phrase ""access denied""'}",True,False,no_registered_canary_detected,False,no_registered_canary_detected
+underscore,{'query': 'failed_login_count'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+hyphen,{'query': 'email-header-analysis'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+dot,{'query': 'sysmon.event.code'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+colon,{'query': 'status: blocked'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+slash,{'query': 'review /var/log/syslog'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+backslash,{'query': 'review C:\\Windows\\System32'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+parentheses,{'query': 'failed logins (last 24 hours)'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+brackets,{'query': 'events [critical]'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+comma,"{'query': 'review DNS, HTTP, and TLS logs'}",True,False,no_registered_canary_detected,False,no_registered_canary_detected
+semicolon,{'query': 'review login; logout events'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+equals,{'query': 'status=failed'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+json_nested,"{'filters': {'event_id': 4625, 'severity': 'high'}}",True,False,no_registered_canary_detected,False,no_registered_canary_detected
+json_list,"{'query': ['failed login', 'account lockout']}",True,False,no_registered_canary_detected,False,no_registered_canary_detected
+json_mixed,"{'filters': {'source': 'endpoint', 'tags': ['EDR', 'SOC']}}",True,False,no_registered_canary_detected,False,no_registered_canary_detected
+empty_string,{'query': ''},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+spaces,{'query': '   '},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+unicode,{'query': 'revisar eventos de inicio de sesión'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+emoji,{'query': 'review alerts 🔎'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+email_like,{'query': 'user@example.test'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+uuid_like,{'query': '550e8400-e29b-41d4-a716-446655440000'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+long_query,{'query': 'review authentication logs review authentication logs review authentication logs review authentication logs review authentication logs review authentication logs review authentication logs review authentication logs review authentication logs review authentication logs review authentication logs review authentication logs '},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+nested_message,{'payload': {'message': 'Multiple failed logins detected'}},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+nested_key,{'metadata': {'source_type': 'security_event'}},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+tab_legitimate,{'query': 'review\tfailed login events'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+newline_legitimate,{'query': 'review\nfailed login events'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+multiple_spaces,{'query': 'review   failed    login events'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+space_around_punctuation,{'query': 'status = failed; source = endpoint'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+structured_filter,"{'filters': [{'field': 'status', 'value': 'failed'}]}",True,False,no_registered_canary_detected,False,no_registered_canary_detected
+benign_fragment_a,{'query': 'HS CANARY is only a placeholder phrase'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+benign_fragment_b,{'query': 'CANARY detection test documentation'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+ordinary_identifier,{'query': 'HS-CANARY-DEMO-PLACEHOLDER'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+security_documentation,{'query': 'explain how honey tokens help detect unauthorized access'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+nested_newline,{'context': {'notes': 'first line\nsecond line'}},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+nested_tab,{'context': {'notes': 'field\tvalue'}},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+unicode_whitespace,{'query': 'review\xa0security\xa0events'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+repeated_punctuation,{'query': 'failed---login...events'},True,False,no_registered_canary_detected,False,no_registered_canary_detected
+json_boolean_null,"{'filters': {'enabled': True, 'owner': None}}",True,False,no_registered_canary_detected,False,no_registered_canary_detected

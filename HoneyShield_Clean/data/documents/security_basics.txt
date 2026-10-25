@@ -1,0 +1,3 @@
+Document: Security Basics
+Network security uses layered controls such as firewalls, monitoring, and access management.
+Security analysts review logs to identify unusual activity and investigate alerts.

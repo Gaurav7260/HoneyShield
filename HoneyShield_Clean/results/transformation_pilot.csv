@@ -1,0 +1,7 @@
+case,description,input_text,text_guard_blocked,text_guard_reason,tool_args_guard_blocked,tool_args_guard_reason
+unchanged,Expected exact match,HS-CANARY-TRANSFORM-TEST-001,True,registered_canary_detected,True,registered_canary_detected
+surrounding_text,Canary remains intact,Please review this value: HS-CANARY-TRANSFORM-TEST-001,True,registered_canary_detected,True,registered_canary_detected
+split_with_space,Canary is altered by inserted whitespace,HS- CANARY-TRANSFORM-TEST-001,False,no_registered_canary_detected,False,no_registered_canary_detected
+split_into_fragments,Canary is split into two fragments,HS-CANARY-TRAN SFORM-TEST-001,False,no_registered_canary_detected,False,no_registered_canary_detected
+base64_encoded,Canary is represented as Base64,SFMtQ0FOQVJZLVRSQU5TRk9STS1URVNULTAwMQ==,False,no_registered_canary_detected,False,no_registered_canary_detected
+benign_text,No canary,Please search for recent security advisories.,False,no_registered_canary_detected,False,no_registered_canary_detected

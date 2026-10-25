@@ -1,0 +1,3 @@
+Document: Access Control
+The principle of least privilege gives each user or service only the permissions required for its task.
+Applications should validate tool arguments and enforce authorization before performing an action.

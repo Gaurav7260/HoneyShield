@@ -1,0 +1,3 @@
+Incident response basics
+
+A practical incident response workflow includes preparation, identification, containment, eradication, recovery, and lessons learned. Analysts should preserve evidence, record timestamps, scope affected assets, and document decisions. This document is synthetic training content for the HoneyShield local RAG prototype.

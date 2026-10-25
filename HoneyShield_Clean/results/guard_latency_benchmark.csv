@@ -1,0 +1,9 @@
+case,guard,iterations,median_ms,p95_ms,mean_ms
+benign_short,baseline,5000,0.001959,0.002041,0.001974
+benign_short,v3,5000,0.016959,0.017208,0.017469
+benign_nested,baseline,5000,0.002459,0.002541,0.002501
+benign_nested,v3,5000,0.047125,0.047958,0.047715
+canary_exact,baseline,5000,0.001959,0.002041,0.001981
+canary_exact,v3,5000,0.014792,0.015041,0.015299
+canary_base64,baseline,5000,0.002,0.002042,0.00202
+canary_base64,v3,5000,0.021083,0.021375,0.021631

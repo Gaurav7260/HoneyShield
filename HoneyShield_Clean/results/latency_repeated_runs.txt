@@ -1,0 +1,36 @@
+========== BENCHMARK RUN 1 ==========
+Saved: results/guard_latency_benchmark.csv
+Guard-only latency; Ollama and tool execution excluded.
+
+benign_short     baseline median=0.002125 ms  p95=0.002333 ms  mean=0.002160 ms
+benign_short     v3       median=0.016750 ms  p95=0.017334 ms  mean=0.017250 ms
+benign_nested    baseline median=0.002417 ms  p95=0.002500 ms  mean=0.002437 ms
+benign_nested    v3       median=0.046625 ms  p95=0.048125 ms  mean=0.047332 ms
+canary_exact     baseline median=0.001958 ms  p95=0.002000 ms  mean=0.001961 ms
+canary_exact     v3       median=0.014500 ms  p95=0.014750 ms  mean=0.015044 ms
+canary_base64    baseline median=0.001959 ms  p95=0.002041 ms  mean=0.001978 ms
+canary_base64    v3       median=0.020666 ms  p95=0.020917 ms  mean=0.021165 ms
+========== BENCHMARK RUN 2 ==========
+Saved: results/guard_latency_benchmark.csv
+Guard-only latency; Ollama and tool execution excluded.
+
+benign_short     baseline median=0.001959 ms  p95=0.002041 ms  mean=0.001978 ms
+benign_short     v3       median=0.016875 ms  p95=0.017083 ms  mean=0.017297 ms
+benign_nested    baseline median=0.002459 ms  p95=0.002541 ms  mean=0.002468 ms
+benign_nested    v3       median=0.047000 ms  p95=0.047291 ms  mean=0.047485 ms
+canary_exact     baseline median=0.002000 ms  p95=0.002041 ms  mean=0.001984 ms
+canary_exact     v3       median=0.014750 ms  p95=0.014958 ms  mean=0.015241 ms
+canary_base64    baseline median=0.002000 ms  p95=0.002042 ms  mean=0.002005 ms
+canary_base64    v3       median=0.021041 ms  p95=0.021209 ms  mean=0.021506 ms
+========== BENCHMARK RUN 3 ==========
+Saved: results/guard_latency_benchmark.csv
+Guard-only latency; Ollama and tool execution excluded.
+
+benign_short     baseline median=0.001959 ms  p95=0.002041 ms  mean=0.001974 ms
+benign_short     v3       median=0.016959 ms  p95=0.017208 ms  mean=0.017469 ms
+benign_nested    baseline median=0.002459 ms  p95=0.002541 ms  mean=0.002501 ms
+benign_nested    v3       median=0.047125 ms  p95=0.047958 ms  mean=0.047715 ms
+canary_exact     baseline median=0.001959 ms  p95=0.002041 ms  mean=0.001981 ms
+canary_exact     v3       median=0.014792 ms  p95=0.015041 ms  mean=0.015299 ms
+canary_base64    baseline median=0.002000 ms  p95=0.002042 ms  mean=0.002020 ms
+canary_base64    v3       median=0.021083 ms  p95=0.021375 ms  mean=0.021631 ms

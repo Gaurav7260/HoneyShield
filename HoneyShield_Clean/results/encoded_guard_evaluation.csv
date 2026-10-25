@@ -1,0 +1,17 @@
+case,test_input,positive_by_test_design,baseline_text_blocked,normalized_v2_text_blocked,punctuation_v1_text_blocked,base64_v1_text_blocked,baseline_args_blocked,normalized_v2_args_blocked,punctuation_v1_args_blocked,base64_v1_args_blocked
+exact,HS-CANARY-7F3A9B2C,true,true,true,true,true,true,true,true,true
+surrounding_text,Please review HS-CANARY-7F3A9B2C now,true,true,true,true,true,true,true,true,true
+one_inserted_space,HS- CANARY- 7F3A9B2C,true,false,true,true,true,false,true,true,true
+punctuation_inserted,HS-CAN-ARY-7F3A9B2C,true,false,false,true,true,false,false,true,true
+base64_encoded,SFMtQ0FOQVJZLTdGM0E5QjJD,true,false,false,false,true,false,false,false,true
+base64_with_context,encoded value: SFMtQ0FOQVJZLTdGM0E5QjJD,true,false,false,false,true,false,false,false,true
+tab_inserted,HS-	CANARY-	7F3A9B2C,true,false,true,true,true,false,true,true,true
+newline_inserted,"HS-
+CANARY-
+7F3A9B2C",true,false,true,true,true,false,true,true,true
+ordinary_security_query,review failed login events,false,false,false,false,false,false,false,false,false
+ordinary_log_review,investigate repeated authentication failures,false,false,false,false,false,false,false,false,false
+ordinary_identifier,user_123 session_456,false,false,false,false,false,false,false,false,false
+benign_base64,aGVsbG8gd29ybGQ=,false,false,false,false,false,false,false,false,false
+benign_encoded_security_text,cmV2aWV3IGZhaWxlZCBsb2dpbiBldmVudHM=,false,false,false,false,false,false,false,false,false
+quoted_fragment_discussion,The word CANARY appears in this explanation,false,false,false,false,false,false,false,false,false

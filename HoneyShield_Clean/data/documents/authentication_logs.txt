@@ -1,0 +1,3 @@
+Authentication log triage
+
+When reviewing authentication events, compare failed and successful logons, account names, source addresses, logon types, timestamps, and subsequent activity. A sequence of failed logons followed by a success is a signal to investigate, not proof of compromise by itself. This document is synthetic training content for the HoneyShield local RAG prototype.
